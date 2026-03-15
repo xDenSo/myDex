@@ -1,0 +1,1 @@
+javac -cp lib/json-20230618.jar -d bin src/*.java
