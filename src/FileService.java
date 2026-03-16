@@ -14,7 +14,6 @@ public class FileService
             Path paths = Paths.get(fileName);
             String file = Files.readString(paths,StandardCharsets.UTF_8);
 
-            System.out.println(file);
             return file;
         }catch(Exception e)
         {
